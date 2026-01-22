@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Core (VS Code)", "Accord.Core\Accord.Core (VS Code).csproj", "{60B65101-B6DF-4532-839E-56E175F3088F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Core", "Accord.Core\Accord.Core.csproj", "{60B65101-B6DF-4532-839E-56E175F3088F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Math (VS Code)", "Accord.Math\Accord.Math (VS Code).csproj", "{1A7D33E5-1D88-4B75-AECE-F93433F28493}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Math", "Accord.Math\Accord.Math.csproj", "{1A7D33E5-1D88-4B75-AECE-F93433F28493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Math.Core (VS Code)", "Accord.Math.Core\Accord.Math.Core (VS Code).csproj", "{57B94AC5-B9C4-4DAE-A171-A0F975521436}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Math.Core", "Accord.Math.Core\Accord.Math.Core.csproj", "{57B94AC5-B9C4-4DAE-A171-A0F975521436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Statistics (VS Code)", "Accord.Statistics\Accord.Statistics (VS Code).csproj", "{ABC42FF5-7F54-45D4-8B9B-981DD67F22F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord.Statistics", "Accord.Statistics\Accord.Statistics.csproj", "{ABC42FF5-7F54-45D4-8B9B-981DD67F22F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,10 +73,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{60B65101-B6DF-4532-839E-56E175F3088F} = {9ECC4F67-9FA7-41DB-82E3-C7BE3EC6EB01}
-		{1A7D33E5-1D88-4B75-AECE-F93433F28493} = {9ECC4F67-9FA7-41DB-82E3-C7BE3EC6EB01}
-		{57B94AC5-B9C4-4DAE-A171-A0F975521436} = {9ECC4F67-9FA7-41DB-82E3-C7BE3EC6EB01}
-		{ABC42FF5-7F54-45D4-8B9B-981DD67F22F7} = {9ECC4F67-9FA7-41DB-82E3-C7BE3EC6EB01}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD5E594-5B82-4D37-900C-D66F5A3937AE}
 	EndGlobalSection
 EndGlobal
